@@ -1,41 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 
-<head>
+  <head>
+    <script language="javascript" src="p5.js"></script>
+    <!--<script language="javascript" src="p5.sound.js"></script>-->
+    <script language="javascript" src="p5.dom.js"></script>
+    <script language="javascript" src="http://cdnjs.cloudflare.com/ajax/libs/mathjs/2.7.0/math.min.js"></script>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <script language="javascript" src="hilbertcurve.js"></script>
+    <script language="javascript" src="sketch.js"></script>
 
-    <title>Sylvia Naples</title>
+     <title>Hilbert Curve</title>
 
-    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="mainstyle.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/thumbnail-gallery.css" rel="stylesheet">
-    <link href="mainstyle.css" rel="stylesheet">
-
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-
-    <script language="javascript" src="js/getRandomImage.js"></script>
-    <script src="js/jquery.js"></script>
-    <script>
-        $(document).ready(function(){    
-            $("#button1").click(function(){
-                $("#welcome").hide();
-            });
-        });
-    </script>
 
         <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -48,11 +30,9 @@
 
     </script>
 
-</head>
+  </head>
 
-<body>
-
-
+  <body>
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
@@ -88,37 +68,14 @@
         <!-- /.container -->
     </nav>
 
-
-
-    <div class = "welcome">
-        <a>
-            <img src="hey.gif" </img>
-        </a>
-
+    <header>
+      <h2>Slowder - Load an Image in Infinite Time...</small></h2>
+    </header>
+    <div class = "by">
+        By Sylvia Naples and Jason Sigal
+    </div>  
+    <div class="percent">
+      Percent Loaded: <span id="percent-num">0</span>%
     </div>
-
-</br>
-
-
-    <div class= "greeting">
-       Hey, check out some of my work in the links. </br>
-<!--          <button id="button1"> Hello </button> -->
-       To draw a Hilbert curve like the one above using your own image click <a href="hilbert.html">here</a>
-    </div>
-
-
-  
-
-
-
-    <!-- /.container -->
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-</body>
-
+  </body>
 </html>
