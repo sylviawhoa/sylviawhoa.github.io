@@ -88,7 +88,7 @@ function getSixRandomImages(imgAr, path) {
 		// console.log('num is: ' + numArray[i]);	
 		var img = imgAr[ numArray[i] ][0];
 	    var url = imgAr[ numArray[i] ][1];
-	    imgStr = '<a href = "' + url + '"><img border="0" src="' + path + img + '" width = "300" alt = ""></a>';
+	    imgStr = '<a class="thumbnail" href = "' + url + '"><img border="0" src="' + path + img + '" class="img-responsive" alt = ""></a>';
 	    imgStrArray.push(imgStr);
 	}
 	console.log('imgStrArray= ' + imgStrArray);
