@@ -6,6 +6,7 @@
  <title>OpenCV Projects</title>
 		<link href="css/style.css" rel="stylesheet">
 		<link href="css/bootstrap.min.css" rel="stylesheet">
+            <link href="css/font-awesome.min.css" rel="stylesheet">
 		<link href="mainstyle.css" rel="stylesheet">
 
     <!-- Custom CSS -->
@@ -26,6 +27,7 @@
 	</head>
 
 	<body>
+
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
@@ -37,10 +39,10 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Sylvia Naples</a>
+                <a class="navbar-brand colorpink" href="index.html">Sylvia Naples</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="collapse navbar-collapse w105" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
                         <a href="picturesofmath.html">Pictures of Math</a>
@@ -54,6 +56,14 @@
                     <li>
                         <a href="hackathons.html">Hackathon Projects</a>
                     </li>
+                 </ul>
+
+                <ul class="nav navbar-nav pull-right">
+                    <li>
+                      <a href="http://github.com/sylviawhoa" class="btn btn-block btn-social btn-github">
+                        <i class="fa fa-github"></i> <span class="hidden-sm" > sylviawhoa </span>
+                      </a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -65,44 +75,50 @@
              <h1 class="page-header">Hackathon Projects</h1>
         </div>
 
+    <div class="container">
+            <!-- <div class="col-xs-8 col-xs-push-2"> -->
+            <div>
+                <div class = " title">
+                    <h3>Slowder: The Slow Image Loader</h3>
+                    <br>
+                    A hackathon project for NYU ITP's Stupid Hackathon
+                </div>   
+                <br>
+                <div class = "">
+                    By Sylvia Naples and <a target="_blank" href = "http://www.jasonsigal.cc/" > Jason Sigal </a>
+                </div>
+                <br>
 
-
-    <div class = "text title">
-        Slowder: The Slow Image Loader
-        <br>
-        A hackathon project for NYU ITP's Stupid Hackathon
-    </div>   
-    <br>
-    <div class = "text">
-        By Sylvia Naples and Jason Sigal
-    </div>
-    <br>
-
-    <div class = "text">
-    Since the theme of the Hackathon was to make things with no value, we decided to write a program that would load images slowly. The image loads with a fractal space-filling curve called the 
-    <a href = "https://en.wikipedia.org/wiki/Hilbert_curve"> Hilbert curve</a>.
-    Because of it's fractal nature, the percent loaded will get closer and closer to 100; however, to load the image completely would take infinite time. <br>
-    I wrote the program for the Hilbert curve in JavaScript using nothing but loops and recursion.
+                <div class = "">
+                Since the theme of the Hackathon was to make things with no value, we decided to write a program that would load images slowly. The image loads with a fractal space-filling curve called the 
+                <a href = "https://en.wikipedia.org/wiki/Hilbert_curve"> Hilbert curve</a>.
+                Because of it's fractal nature, the percent loaded will get closer and closer to 100; however, to load the image completely would take infinite time. <br>
+                I wrote the program for the Hilbert curve in JavaScript using nothing but loops and recursion.
+                </div>
+            </div>
+            <div class="clearfix"></div>
     </div>
     <br>
 
     <div class="container">
-        <div class="row">
-            <div class="col-md-4 col-sm-6 ">
+            <div class="text-center overflow-hidden">
                  <img src="SLOWDER.gif">
             </div>   
 
+
+        <br>
+
+        <div class = "">
+        To load your own image into slowder, check out our 
+                    <a href = "http://sylviawhoa.github.io/slowder/">
+                    Slowder 
+                </a> page. (Currently only works in Google Chrome).
         </div>
+
     </div>    
 
-    <br>
 
-    <div class = "text">
-    To load your own image into slowder, check out our 
-                <a href = "http://sylviawhoa.github.io/slowder/">
-                Slowder 
-            </a> page. (Currently only works in Google Chrome).
-    </div>
+
 
 
 </body>	

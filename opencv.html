@@ -6,6 +6,7 @@
  <title>OpenCV Projects</title>
 		<link href="css/style.css" rel="stylesheet">
 		<link href="css/bootstrap.min.css" rel="stylesheet">
+            <link href="css/font-awesome.min.css" rel="stylesheet">
 		<link href="mainstyle.css" rel="stylesheet">
 
     <!-- Custom CSS -->
@@ -25,6 +26,8 @@
 	</head>
 
 	<body>
+
+
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
@@ -36,10 +39,10 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Sylvia Naples</a>
+                <a class="navbar-brand colorpink" href="index.html">Sylvia Naples</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="collapse navbar-collapse w105" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
                         <a href="picturesofmath.html">Pictures of Math</a>
@@ -52,6 +55,14 @@
                     </li>
                     <li>
                         <a href="hackathons.html">Hackathon Projects</a>
+                    </li>
+                 </ul>
+
+                <ul class="nav navbar-nav pull-right">
+                    <li>
+                      <a href="http://github.com/sylviawhoa" class="btn btn-block btn-social btn-github">
+                        <i class="fa fa-github"></i> <span class="hidden-sm" > sylviawhoa </span>
+                      </a>
                     </li>
                 </ul>
             </div>
@@ -71,8 +82,9 @@
 
             <div class="col-sm-6 gif-thumb">
                 <div class = "text-center title">
-                    _Reflection_
+                  _Reflection_
                 </div> 
+                <br>
                 <img src="mirror.gif" height = "300">
                 <div class = "max-width">
                 My first OpenCV project. A reverse loop on the rows gives a reflection. The Gaussian filter gives the illusion of water. 
