@@ -17,6 +17,22 @@
   font-size:16px;
 }
 
+.textbox{
+  background-color:#cce1e0;
+  /*color:#305c99;*/
+  padding-left:30px;
+  font-size:12px;
+  max-width: 420px;
+}
+
+.textboxn{
+  background-color:#cce1e0;
+  /*color:#305c99;*/
+  padding-left:30px;
+  font-size:12px;
+  max-width: 360px;
+}
+
 .text{
   background-color:rgba(255, 255, 255,0.8);
   /*color:#305c99;*/
