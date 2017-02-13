@@ -1,0 +1,43 @@
+.pink {
+	border-color: #ffcccc;
+	border-style: solid;
+	border-width: 10px;
+}
+
+.shrink-grid {
+	margin:0px 12px -1px 13px;
+}
+
+.section-title {
+	padding-bottom:0px;
+}
+
+.img-responsive, .thumbnail a > img, .thumbnail > img {
+	width:100%;
+}
+
+.section-title p {
+	margin: 5px 100px 30px 100px;
+}
+
+.textboxn{
+	background-color:#cce1e0;
+	/*color:#305c99;*/
+	padding-left:10px;
+	font-size:12px;
+	max-width: 360px;
+}
+
+.modal-container {
+	width: 95%;
+	margin-left:15px;
+}
+
+.pic-thumb {
+	
+}
+/*.thumb {
+    margin-bottom: 30px;
+    height: 300px;
+    width: 300px;
+}*/
