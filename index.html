@@ -176,13 +176,12 @@
 						<div class="modal-works"><span>Javascript</span><span>Hackathon</span></div>
 						<p>By Sylvia Naples and <a target="_blank" href = "http://www.jasonsigal.cc/" > Jason Sigal </a> for NYU ITP's Stupid Hackathon</p>
 						<p>
-						The goal of this Hackathon was to make things with no value. We decided to write a program that would load images slowly. The image loads with a fractal space-filling curve called the <a href = "https://en.wikipedia.org/wiki/Hilbert_curve"> Hilbert curve</a>. Because of it's fractal nature, the percent loaded will get closer and closer to 100; however, to load the image completely would take infinite time.</p>
-						<p>
-							I wrote the program for the Hilbert curve in JavaScript using nothing but loops and recursion.
+						Everyone wants faster internet, faster data -- for the Stupid Hackathon, we decided to slow things down, significantly. Using our site, <a href = "http://sylviawhoa.github.io/slowder/"> SLOWDER: The Slow Image Loader</a>, you can load any image in infinite time.
 						</p>
-						<p> To load your own image into slowder, check out our <a href = "http://sylviawhoa.github.io/slowder/"> Slowder</a> page. (Currently only works in Google Chrome).
+						<p>The image loads with a fractal space-filling curve called the <a href = "https://en.wikipedia.org/wiki/Hilbert_curve"> Hilbert curve</a>. Because of it's fractal nature, the percent loaded will get closer and closer to 100; however, to load the image completely would take forever.</p>
+						<p>The Hilbert curve is written in JavaScript using only some carefully constructed for loops. 
 						</p>
-						<p>Checkout the project on <a href="https://github.com/sylviawhoa/slowder">github</a>.</p>
+						<p>Check out the project on <a href="https://github.com/sylviawhoa/slowder">github</a>, or try loading you own image into <a href = "http://sylviawhoa.github.io/slowder/"> Slowder</a> (Currently only works in Google Chrome).</p>
 					</div>
 					<div class="modal-footer">
 						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -222,102 +221,102 @@
 					</div>
 					<div class="modal-body">
 						<div class="modal-works"><span>Hackathon</span><span>Spotify</span><span>Markov Chain</span><span>NLP</span></div>
-						<p>By Sylvia Naples and <a target="_blank" href = "http://www.jasonsigal.cc/" > Jason Sigal </a> for Monthly Music Hackathon at Spotify NYC</p> 
+						<p>By Sylvia Naples and <a target="_blank" href="http://www.jasonsigal.cc/" > Jason Sigal </a> for Monthly Music Hackathon at Spotify NYC</p> 
 						<p>Our code uses a <a href = "https://en.wikipedia.org/wiki/Markov_chain"> Markov Chain </a> to generate new lyrics to a given song from a large text file.
-						Given the lyrics to a song, new lyrics are generated with the same syllabic count so that the song can be sung using the new lyrics. We used <a href="https://www.yelp.com/dataset_challenge/" target="_blank">Yelp reviews</a> to generate the lyrics but any large text file could be substituted.</p>
+						Given the lyrics to any song, new lyrics are generated with the same syllabic count so that the new song can be substituted for a Karaoke performance. We used <a href="https://www.yelp.com/dataset_challenge/" target="_blank">Yelp reviews</a> to generate the lyrics but any large text file could be substituted.</p>
 
-						<p>Example output:</p>
-						<div class = "modal-container">
-							<div class="row">
-								<div class="col-sm-6">Patti Smith's Lyrics to "Because the Night"</div>
-								<div class="col-sm-6">Markov Generated lyrics to "Because the Night"</div>
-							</div>
+						<p>Example output for <a href="https://www.youtube.com/watch?v=YnvXgwXQMYY" target="_blank">Because the Night</a>:</p>
+						<div class = "modal-container container">
 							<div class="row">
 								<div class="col-sm-6">
-									<div class = "textboxn">
-										<br>
-										Take me now baby here as I am<br>
-										Pull me close, try and understand<br>
-										Desire is hunger is the fire I breathe<br>
-										Love is a banquet on which we feed<br><br>
+									<div class="row indent15">Patti Smith's Lyrics</div>
+									<div class="row">
+										<div class = "textboxn">
+											Take me now baby here as I am<br>
+											Pull me close, try and understand<br>
+											Desire is hunger is the fire I breathe<br>
+											Love is a banquet on which we feed<br><br>
 
-										Come on now try and understand<br>
-										The way I feel when I'm in your hands<br>
-										Take my hand come undercover<br>
-										They can't hurt you now,<br>
-										Can't hurt you now, can't hurt you now<br>
-										Because the night belongs to lovers<br>
-										Because the night belongs to lust<br>
-										Because the night belongs to lovers<br>
-										Because the night belongs to us<br><br>
+											Come on now try and understand<br>
+											The way I feel when I'm in your hands<br>
+											Take my hand come undercover<br>
+											They can't hurt you now,<br>
+											Can't hurt you now, can't hurt you now<br>
+											Because the night belongs to lovers<br>
+											Because the night belongs to lust<br>
+											Because the night belongs to lovers<br>
+											Because the night belongs to us<br><br>
 
-										Have I doubt when I'm alone<br>
-										Love is a ring, the telephone<br>
-										Love is an angel disguised as lust<br>
-										Here in our bed until the morning comes<br>
-										Come on now try and understand<br>
-										The way I feel under your command<br>
-										Take my hand as the sun descends<br>
-										They can't touch you now,<br>
-										Can't touch you now, can't touch you now<br>
-										Because the night belongs to lovers ...<br><br>
+											Have I doubt when I'm alone<br>
+											Love is a ring, the telephone<br>
+											Love is an angel disguised as lust<br>
+											Here in our bed until the morning comes<br>
+											Come on now try and understand<br>
+											The way I feel under your command<br>
+											Take my hand as the sun descends<br>
+											They can't touch you now,<br>
+											Can't touch you now, can't touch you now<br>
+											Because the night belongs to lovers ...<br><br>
 
-										With love we sleep<br>
-										With doubt the vicious circle<br>
-										Turn and burns<br>
-										Without you I cannot live<br>
-										Forgive, the yearning burning<br>
-										I believe it's time, too real to feel<br>
-										So touch me now, touch me now, touch me now<br>
-										Because the night belongs to lovers ...<br><br>
+											With love we sleep<br>
+											With doubt the vicious circle<br>
+											Turn and burns<br>
+											Without you I cannot live<br>
+											Forgive, the yearning burning<br>
+											I believe it's time, too real to feel<br>
+											So touch me now, touch me now, touch me now<br>
+											Because the night belongs to lovers ...<br><br>
 
-										Because tonight there are two lovers<br>
-										If we believe in the night we trust<br>
-										Because tonight there are two lovers ...<br><br>
+											Because tonight there are two lovers<br>
+											If we believe in the night we trust<br>
+											Because tonight there are two lovers ...<br><br>
+										</div> 
+										<br><br> 
 									</div> 
-									<br><br> 
-								</div> 
+								</div>
 								<div class="col-sm-6">
-									<div class = "textboxn">
-										<br>
-										THAT THE EMPLOYEES HE DIDN'T HAVE<br>
-										CARE OF THE LOUD SOME CHEAP BUT AT<br>
-										IS NEARBY TOWN AND TAKE OUR WAITRESS WAS STUFFED<br>
-										IN COMPARISON TO BE SEATED<br><br>
+									<div class="row indent15">Markov Generated Lyrics</div>
+									<div class="row">
+										<div class = "textboxn">
+											That the employees he didn't have<br>
+											Care of the loud some cheap but at<br>
+											Is nearby town and take our waitress was stuffed<br>
+											In comparison to be seated<br><br>
 
-										IN THE BAR WASN'T EVEN THAT<br>
-										FRIDAY DURING THE DESCRIPTIONS ALL<br>
-										RECENT SALES BUT OUR CREDIT<br>
-										HAVE ENOUGH TO STOP<br>
-										BECAUSE THE OTHER THAN INCOMPETENT<br>
-										DREAM I WILL RETURN HOME I CALLED THE<br>
-										SERVICE GOLFERS IN THE BOYFRIEND<br>
-										ARE JUST OK BECAUSE WE GO BACK<br>
-										TEA BUT DID BLENDED DRINKS I'VE EATEN<br><br>
+											In the bar wasn't even that<br>
+											Friday during the descriptions all<br>
+											Recent sales but our credit<br>
+											Have enough to stop<br>
+											Because the other than incompetent<br>
+											Dream i will return home i called the<br>
+											Service golfers in the boyfriend<br>
+											Are just ok because we go back<br>
+											Tea but did blended drinks i've eaten<br><br>
 
-										TREATS ARE GREAT ARE NOT HONOR<br>
-										AS TOILETRIES AND ONE OF GOING<br>
-										BECAUSE MUCH ENTHUSIASM ABOUT<br>
-										BY AND WERE STAFFED WITH GOOD TO PURCHASE MACHINES<br>
-										TAILOR AS AN ITALIAN FOOD<br>
-										NOT SO THIN CRUST WAS HELPFUL AND VERY<br>
-										OVERPRICED CAME BACK MAYBE IT'S<br>
-										TABLES IT ALL IT<br>
-										BACK FOR THE BAR WONDERFUL JOB<br>
-										OTHER SIGNS HE TOLD I DO IT WAS<br><br>
+											Treats are great are not honor<br>
+											As toiletries and one of going<br>
+											Because much enthusiasm about<br>
+											By and were staffed with good to purchase machines<br>
+											Tailor as an italian food<br>
+											Not so thin crust was helpful and very<br>
+											Overpriced came back maybe it's<br>
+											Tables it all it<br>
+											Back for the bar wonderful job<br>
+											Other signs he told i do it was<br><br>
 
-										EVEN HAVE ANY<br>
-										WHICH WAS OVERCOOKED AND DUTIES<br>
-										HAD GREAT AND<br>
-										AND HIGHLY GOTTEN A DRINK<br>
-										TORTILLA SOUP AND THE ONLY<br>
-										HISTORIC BUILDING AND KNOWS THAT I<br>
-										WHITE RICE NOODLES WERE SUFFICIENT TO ORDER<br>
-										IT'S THE FOR IT IS A BUT WAY I<br><br>
+											Even have any<br>
+											Which was overcooked and duties<br>
+											Had great and<br>
+											And highly gotten a drink<br>
+											Tortilla soup and the only<br>
+											Historic building and knows that i<br>
+											White rice noodles were sufficient to order<br>
+											It's the for it is a but way i<br><br>
 
-										SOMETHING NEW SLIDE DOWN SOUTH HILLS HANDS AND<br>
-										BUT THE TIKI THING THAT BEING THERE<br>
-										AND EXCITING FOR A NICE STAFF WORKING<br><br>
+											Something new slide down south hills hands and<br>
+											But the tiki thing that being there<br>
+											And exciting for a nice staff working<br><br>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -424,9 +423,8 @@
 						<div class="modal-works"><span>API</span><span>Sentiment Analysis</span><span>NLP</span></div>
 						<p>Using Sentiment Analysis on News</p>
 						<p>
-						Want the good news? By selecting good news, you'll see only articles with a sentiment score of over .8. The bad news? Below -.8. All articles are fetched several times a day using the Alchemy API.
+						Want the good news? By selecting "good news", you'll see only the recent articles with the highest sentiment scores. The bad news? The recent articles with the lowest sentiment scores. All articles are fetched several times a day using the <a href="https://www.ibm.com/watson/developercloud/doc/alchemydata-news/">AlchemyData News API</a>.
 						</p>
-						<!-- url to site -->
 					</div>
 					<div class="modal-footer">
 						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -471,7 +469,7 @@
 						<p>An implementation of Persistence of Vision from Simon Monk's <br>
 						<a href = "http://www.dangerouslymad.com/projects/chapter-8-persistence-of-vision"> 15 Dangerously Mad Projects for the Evil Genius</a></p>
 
-					<div class="modal-container">
+					<div class="modal-container container">
 						<div class="row">
 							<img src="images/povproject.jpg" class="img-responsive">
 							<p>The completed Persistence of Vision board</p>
@@ -490,8 +488,7 @@
 						</div>
 					</div>
 
-					</div>
-
+					</div
 					<div class="modal-footer">
 						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 					</div>
@@ -507,5 +504,16 @@
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/SmoothScroll.js"></script>
 		<script src="js/theme-scripts.js"></script>
+
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-92077721-1', 'auto');
+			ga('send', 'pageview');
+
+		</script>
 	</body>
 </html>

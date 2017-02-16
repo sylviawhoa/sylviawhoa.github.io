@@ -20,22 +20,24 @@
 	margin: 5px 100px 30px 100px;
 }
 
-.textboxn{
+.textboxn {
+	margin: 15px;
 	background-color:#cce1e0;
 	/*color:#305c99;*/
-	padding-left:10px;
+	padding:10px;
 	font-size:12px;
 	max-width: 360px;
 }
 
-.modal-container {
-	width: 95%;
-	margin-left:15px;
+.indent15 {
+	margin-left: 15px;
 }
 
-.pic-thumb {
-	
+.modal-container {
+	width: 95%;
 }
+
+
 /*.thumb {
     margin-bottom: 30px;
     height: 300px;
